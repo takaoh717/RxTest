@@ -9,8 +9,15 @@
 /* Begin PBXBuildFile section */
 		B1A9583DCF68E385B63CA1D3 /* Pods_RxTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2214EA7EA8BF96594DFA0E8A /* Pods_RxTestUITests.framework */; };
 		DA191D011C998E15C037AC8B /* Pods_RxTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F09380F1D02B8CEA63856143 /* Pods_RxTestTests.framework */; };
+		DB6397E21EC31BE200E43EAA /* SearchUserViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB6397E11EC31BE200E43EAA /* SearchUserViewController.storyboard */; };
+		DB6397E41EC31BF900E43EAA /* SearchUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6397E31EC31BF900E43EAA /* SearchUserViewController.swift */; };
+		DB6397EA1EC31D6800E43EAA /* GithubUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6397E81EC31D6800E43EAA /* GithubUserCell.swift */; };
+		DB6397EB1EC31D6800E43EAA /* GithubUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB6397E91EC31D6800E43EAA /* GithubUserCell.xib */; };
+		DB6397EE1EC31DD900E43EAA /* Storybordable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6397ED1EC31DD900E43EAA /* Storybordable.swift */; };
+		DB6397F11EC31E4A00E43EAA /* NSObjectProtocol+ClassName.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6397F01EC31E4A00E43EAA /* NSObjectProtocol+ClassName.swift */; };
+		DB6397F31EC3236800E43EAA /* Nibable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6397F21EC3236800E43EAA /* Nibable.swift */; };
+		DB6397F51EC3261A00E43EAA /* UITableView+Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6397F41EC3261A00E43EAA /* UITableView+Cell.swift */; };
 		DBAE6DC11EBF0AC1004EF6DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAE6DC01EBF0AC1004EF6DE /* AppDelegate.swift */; };
-		DBAE6DC31EBF0AC1004EF6DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAE6DC21EBF0AC1004EF6DE /* ViewController.swift */; };
 		DBAE6DC61EBF0AC1004EF6DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBAE6DC41EBF0AC1004EF6DE /* Main.storyboard */; };
 		DBAE6DC81EBF0AC1004EF6DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBAE6DC71EBF0AC1004EF6DE /* Assets.xcassets */; };
 		DBAE6DCB1EBF0AC1004EF6DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBAE6DC91EBF0AC1004EF6DE /* LaunchScreen.storyboard */; };
@@ -43,9 +50,16 @@
 		7D16B3C85A160DEC48023440 /* Pods-RxTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxTest/Pods-RxTest.release.xcconfig"; sourceTree = "<group>"; };
 		A5A88E6460A33AADBA84A5D7 /* Pods-RxTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxTestUITests/Pods-RxTestUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B2B0CD1F9BD37A5957B8B0FC /* Pods-RxTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxTestTests/Pods-RxTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB6397E11EC31BE200E43EAA /* SearchUserViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SearchUserViewController.storyboard; sourceTree = "<group>"; };
+		DB6397E31EC31BF900E43EAA /* SearchUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchUserViewController.swift; sourceTree = "<group>"; };
+		DB6397E81EC31D6800E43EAA /* GithubUserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubUserCell.swift; sourceTree = "<group>"; };
+		DB6397E91EC31D6800E43EAA /* GithubUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GithubUserCell.xib; sourceTree = "<group>"; };
+		DB6397ED1EC31DD900E43EAA /* Storybordable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storybordable.swift; sourceTree = "<group>"; };
+		DB6397F01EC31E4A00E43EAA /* NSObjectProtocol+ClassName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObjectProtocol+ClassName.swift"; sourceTree = "<group>"; };
+		DB6397F21EC3236800E43EAA /* Nibable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nibable.swift; sourceTree = "<group>"; };
+		DB6397F41EC3261A00E43EAA /* UITableView+Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Cell.swift"; sourceTree = "<group>"; };
 		DBAE6DBD1EBF0AC1004EF6DE /* RxTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBAE6DC01EBF0AC1004EF6DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DBAE6DC21EBF0AC1004EF6DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DBAE6DC51EBF0AC1004EF6DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DBAE6DC71EBF0AC1004EF6DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBAE6DCA1EBF0AC1004EF6DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -99,6 +113,42 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DB6397E01EC31BB400E43EAA /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DB6397E11EC31BE200E43EAA /* SearchUserViewController.storyboard */,
+				DB6397E31EC31BF900E43EAA /* SearchUserViewController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		DB6397E51EC31CFC00E43EAA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DB6397E81EC31D6800E43EAA /* GithubUserCell.swift */,
+				DB6397E91EC31D6800E43EAA /* GithubUserCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DB6397EC1EC31DBC00E43EAA /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				DB6397ED1EC31DD900E43EAA /* Storybordable.swift */,
+				DB6397F21EC3236800E43EAA /* Nibable.swift */,
+			);
+			name = protocol;
+			sourceTree = "<group>";
+		};
+		DB6397EF1EC31E2F00E43EAA /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DB6397F01EC31E4A00E43EAA /* NSObjectProtocol+ClassName.swift */,
+				DB6397F41EC3261A00E43EAA /* UITableView+Cell.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
 		DBAE6DB41EBF0AC1004EF6DE = {
 			isa = PBXGroup;
 			children = (
@@ -125,8 +175,11 @@
 			isa = PBXGroup;
 			children = (
 				DBAE6DC01EBF0AC1004EF6DE /* AppDelegate.swift */,
-				DBAE6DC21EBF0AC1004EF6DE /* ViewController.swift */,
 				DBAE6DC41EBF0AC1004EF6DE /* Main.storyboard */,
+				DB6397E01EC31BB400E43EAA /* ViewController */,
+				DB6397E51EC31CFC00E43EAA /* View */,
+				DB6397EC1EC31DBC00E43EAA /* protocol */,
+				DB6397EF1EC31E2F00E43EAA /* Extension */,
 				DBAE6DC71EBF0AC1004EF6DE /* Assets.xcassets */,
 				DBAE6DC91EBF0AC1004EF6DE /* LaunchScreen.storyboard */,
 				DBAE6DCC1EBF0AC1004EF6DE /* Info.plist */,
@@ -285,7 +338,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBAE6DCB1EBF0AC1004EF6DE /* LaunchScreen.storyboard in Resources */,
+				DB6397EB1EC31D6800E43EAA /* GithubUserCell.xib in Resources */,
 				DBAE6DC81EBF0AC1004EF6DE /* Assets.xcassets in Resources */,
+				DB6397E21EC31BE200E43EAA /* SearchUserViewController.storyboard in Resources */,
 				DBAE6DC61EBF0AC1004EF6DE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -449,8 +504,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBAE6DC31EBF0AC1004EF6DE /* ViewController.swift in Sources */,
+				DB6397F51EC3261A00E43EAA /* UITableView+Cell.swift in Sources */,
 				DBAE6DC11EBF0AC1004EF6DE /* AppDelegate.swift in Sources */,
+				DB6397F31EC3236800E43EAA /* Nibable.swift in Sources */,
+				DB6397EA1EC31D6800E43EAA /* GithubUserCell.swift in Sources */,
+				DB6397F11EC31E4A00E43EAA /* NSObjectProtocol+ClassName.swift in Sources */,
+				DB6397EE1EC31DD900E43EAA /* Storybordable.swift in Sources */,
+				DB6397E41EC31BF900E43EAA /* SearchUserViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -707,6 +767,7 @@
 				DBAE6DE71EBF0AC1004EF6DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DBAE6DE81EBF0AC1004EF6DE /* Build configuration list for PBXNativeTarget "RxTestTests" */ = {
 			isa = XCConfigurationList;
@@ -715,6 +776,7 @@
 				DBAE6DEA1EBF0AC1004EF6DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DBAE6DEB1EBF0AC1004EF6DE /* Build configuration list for PBXNativeTarget "RxTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -723,6 +785,7 @@
 				DBAE6DED1EBF0AC1004EF6DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

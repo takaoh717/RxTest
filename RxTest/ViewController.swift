@@ -7,12 +7,21 @@
 //
 
 import UIKit
+import RxSwift
+import RxCocoa
+
+let disposeBag = DisposeBag()
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var tf: UITextField!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
     override func didReceiveMemoryWarning() {

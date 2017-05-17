@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>APIKit.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Himotoki.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-RxTest.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -15,6 +25,11 @@
 			<false/>
 		</dict>
 		<key>Pods-RxTestUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Result.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -37,17 +52,32 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>549F2C09B42C1953CB6262C2346D7AC4</key>
+		<key>1D2BBB5367531A494FDEFD36CE0749AD</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5958C4AB661C1A6A9B4C787467EF4B92</key>
+		<key>335B12EDA6B9CC6986307EE000FBA4C9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A23B60A6FC60FB23690CC8CB84BA275F</key>
+		<key>34478F41F5D1144256B25A4D6E85EBB8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3CAF2DFADEB8F0738869A90E9E89E526</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5A9DE7F11615DAEF22CE98A8A0239463</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7287F24066F1095F5999076AC45BBBC9</key>
 		<dict>
 			<key>primary</key>
 			<true/>

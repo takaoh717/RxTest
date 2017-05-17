@@ -4,6 +4,8 @@ target 'RxTest' do
 
   pod 'RxSwift'
   pod 'RxCocoa'
+  pod 'APIKit', '~> 3.0'
+  pod "Himotoki", "~> 3.0"
 
   target 'RxTestTests' do
     inherit! :search_paths

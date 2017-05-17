@@ -17,6 +17,8 @@
 		DB6397F11EC31E4A00E43EAA /* NSObjectProtocol+ClassName.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6397F01EC31E4A00E43EAA /* NSObjectProtocol+ClassName.swift */; };
 		DB6397F31EC3236800E43EAA /* Nibable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6397F21EC3236800E43EAA /* Nibable.swift */; };
 		DB6397F51EC3261A00E43EAA /* UITableView+Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6397F41EC3261A00E43EAA /* UITableView+Cell.swift */; };
+		DB6B586B1ECC492000681A16 /* GithubResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6B586A1ECC492000681A16 /* GithubResponse.swift */; };
+		DB6B586E1ECC887C00681A16 /* GithubSearchReponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6B586D1ECC887C00681A16 /* GithubSearchReponse.swift */; };
 		DBAE6DC11EBF0AC1004EF6DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAE6DC01EBF0AC1004EF6DE /* AppDelegate.swift */; };
 		DBAE6DC61EBF0AC1004EF6DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBAE6DC41EBF0AC1004EF6DE /* Main.storyboard */; };
 		DBAE6DC81EBF0AC1004EF6DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBAE6DC71EBF0AC1004EF6DE /* Assets.xcassets */; };
@@ -58,6 +60,8 @@
 		DB6397F01EC31E4A00E43EAA /* NSObjectProtocol+ClassName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObjectProtocol+ClassName.swift"; sourceTree = "<group>"; };
 		DB6397F21EC3236800E43EAA /* Nibable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nibable.swift; sourceTree = "<group>"; };
 		DB6397F41EC3261A00E43EAA /* UITableView+Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Cell.swift"; sourceTree = "<group>"; };
+		DB6B586A1ECC492000681A16 /* GithubResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubResponse.swift; sourceTree = "<group>"; };
+		DB6B586D1ECC887C00681A16 /* GithubSearchReponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubSearchReponse.swift; sourceTree = "<group>"; };
 		DBAE6DBD1EBF0AC1004EF6DE /* RxTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBAE6DC01EBF0AC1004EF6DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBAE6DC51EBF0AC1004EF6DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -113,6 +117,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DB2BC6E51ECC29C900B6A128 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				DB6B586C1ECC49DE00681A16 /* Response */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
 		DB6397E01EC31BB400E43EAA /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +161,15 @@
 			name = Extension;
 			sourceTree = "<group>";
 		};
+		DB6B586C1ECC49DE00681A16 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				DB6B586A1ECC492000681A16 /* GithubResponse.swift */,
+				DB6B586D1ECC887C00681A16 /* GithubSearchReponse.swift */,
+			);
+			name = Response;
+			sourceTree = "<group>";
+		};
 		DBAE6DB41EBF0AC1004EF6DE = {
 			isa = PBXGroup;
 			children = (
@@ -176,6 +197,7 @@
 			children = (
 				DBAE6DC01EBF0AC1004EF6DE /* AppDelegate.swift */,
 				DBAE6DC41EBF0AC1004EF6DE /* Main.storyboard */,
+				DB2BC6E51ECC29C900B6A128 /* API */,
 				DB6397E01EC31BB400E43EAA /* ViewController */,
 				DB6397E51EC31CFC00E43EAA /* View */,
 				DB6397EC1EC31DBC00E43EAA /* protocol */,
@@ -505,9 +527,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB6397F51EC3261A00E43EAA /* UITableView+Cell.swift in Sources */,
+				DB6B586B1ECC492000681A16 /* GithubResponse.swift in Sources */,
 				DBAE6DC11EBF0AC1004EF6DE /* AppDelegate.swift in Sources */,
 				DB6397F31EC3236800E43EAA /* Nibable.swift in Sources */,
 				DB6397EA1EC31D6800E43EAA /* GithubUserCell.swift in Sources */,
+				DB6B586E1ECC887C00681A16 /* GithubSearchReponse.swift in Sources */,
 				DB6397F11EC31E4A00E43EAA /* NSObjectProtocol+ClassName.swift in Sources */,
 				DB6397EE1EC31DD900E43EAA /* Storybordable.swift in Sources */,
 				DB6397E41EC31BF900E43EAA /* SearchUserViewController.swift in Sources */,
@@ -662,6 +686,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F1CDE06E4E2F7AB6C251E6DE /* Pods-RxTest.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = J5WW4LM3TV;
 				INFOPLIST_FILE = RxTest/Info.plist;
@@ -676,6 +701,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7D16B3C85A160DEC48023440 /* Pods-RxTest.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = J5WW4LM3TV;
 				INFOPLIST_FILE = RxTest/Info.plist;
@@ -690,7 +716,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B2B0CD1F9BD37A5957B8B0FC /* Pods-RxTestTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = J5WW4LM3TV;
 				INFOPLIST_FILE = RxTestTests/Info.plist;
@@ -706,7 +732,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 09D3D308E5AB0576F9C2947C /* Pods-RxTestTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = J5WW4LM3TV;
 				INFOPLIST_FILE = RxTestTests/Info.plist;
@@ -722,7 +748,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E9B62DA0C8E3613122744173 /* Pods-RxTestUITests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				DEVELOPMENT_TEAM = J5WW4LM3TV;
 				INFOPLIST_FILE = RxTestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -737,7 +763,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A5A88E6460A33AADBA84A5D7 /* Pods-RxTestUITests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				DEVELOPMENT_TEAM = J5WW4LM3TV;
 				INFOPLIST_FILE = RxTestUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

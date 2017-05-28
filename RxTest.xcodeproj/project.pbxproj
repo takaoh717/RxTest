@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B1A9583DCF68E385B63CA1D3 /* Pods_RxTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2214EA7EA8BF96594DFA0E8A /* Pods_RxTestUITests.framework */; };
 		DA191D011C998E15C037AC8B /* Pods_RxTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F09380F1D02B8CEA63856143 /* Pods_RxTestTests.framework */; };
+		DB2BE41B1EDA8C05007BAE50 /* UIColor+Github.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2BE41A1EDA8C05007BAE50 /* UIColor+Github.swift */; };
 		DB6397E21EC31BE200E43EAA /* SearchUserViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB6397E11EC31BE200E43EAA /* SearchUserViewController.storyboard */; };
 		DB6397E41EC31BF900E43EAA /* SearchUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6397E31EC31BF900E43EAA /* SearchUserViewController.swift */; };
 		DB6397EA1EC31D6800E43EAA /* GithubUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6397E81EC31D6800E43EAA /* GithubUserCell.swift */; };
@@ -23,6 +24,7 @@
 		DB6B58741ECC8E5800681A16 /* GithubSearchUserRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6B58731ECC8E5800681A16 /* GithubSearchUserRequest.swift */; };
 		DB6B58771ECC8ED900681A16 /* GithubUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6B58761ECC8ED900681A16 /* GithubUser.swift */; };
 		DB6B58791ECDC39A00681A16 /* GithubSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6B58781ECDC39A00681A16 /* GithubSession.swift */; };
+		DB6B587C1ECDCC5400681A16 /* SearchUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6B587B1ECDCC5400681A16 /* SearchUserViewModel.swift */; };
 		DBAE6DC11EBF0AC1004EF6DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBAE6DC01EBF0AC1004EF6DE /* AppDelegate.swift */; };
 		DBAE6DC61EBF0AC1004EF6DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBAE6DC41EBF0AC1004EF6DE /* Main.storyboard */; };
 		DBAE6DC81EBF0AC1004EF6DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBAE6DC71EBF0AC1004EF6DE /* Assets.xcassets */; };
@@ -56,6 +58,7 @@
 		7D16B3C85A160DEC48023440 /* Pods-RxTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxTest/Pods-RxTest.release.xcconfig"; sourceTree = "<group>"; };
 		A5A88E6460A33AADBA84A5D7 /* Pods-RxTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxTestUITests/Pods-RxTestUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B2B0CD1F9BD37A5957B8B0FC /* Pods-RxTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxTestTests/Pods-RxTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB2BE41A1EDA8C05007BAE50 /* UIColor+Github.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Github.swift"; sourceTree = "<group>"; };
 		DB6397E11EC31BE200E43EAA /* SearchUserViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SearchUserViewController.storyboard; sourceTree = "<group>"; };
 		DB6397E31EC31BF900E43EAA /* SearchUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchUserViewController.swift; sourceTree = "<group>"; };
 		DB6397E81EC31D6800E43EAA /* GithubUserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubUserCell.swift; sourceTree = "<group>"; };
@@ -70,6 +73,7 @@
 		DB6B58731ECC8E5800681A16 /* GithubSearchUserRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubSearchUserRequest.swift; sourceTree = "<group>"; };
 		DB6B58761ECC8ED900681A16 /* GithubUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubUser.swift; sourceTree = "<group>"; };
 		DB6B58781ECDC39A00681A16 /* GithubSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubSession.swift; sourceTree = "<group>"; };
+		DB6B587B1ECDCC5400681A16 /* SearchUserViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchUserViewModel.swift; sourceTree = "<group>"; };
 		DBAE6DBD1EBF0AC1004EF6DE /* RxTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBAE6DC01EBF0AC1004EF6DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBAE6DC51EBF0AC1004EF6DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -167,6 +171,7 @@
 			children = (
 				DB6397F01EC31E4A00E43EAA /* NSObjectProtocol+ClassName.swift */,
 				DB6397F41EC3261A00E43EAA /* UITableView+Cell.swift */,
+				DB2BE41A1EDA8C05007BAE50 /* UIColor+Github.swift */,
 			);
 			name = Extension;
 			sourceTree = "<group>";
@@ -197,6 +202,14 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
+		DB6B587A1ECDCC2E00681A16 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DB6B587B1ECDCC5400681A16 /* SearchUserViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
 		DBAE6DB41EBF0AC1004EF6DE = {
 			isa = PBXGroup;
 			children = (
@@ -225,11 +238,12 @@
 				DBAE6DC01EBF0AC1004EF6DE /* AppDelegate.swift */,
 				DBAE6DC41EBF0AC1004EF6DE /* Main.storyboard */,
 				DB2BC6E51ECC29C900B6A128 /* API */,
-				DB6B58751ECC8EC100681A16 /* Model */,
-				DB6397E01EC31BB400E43EAA /* ViewController */,
-				DB6397E51EC31CFC00E43EAA /* View */,
-				DB6397EC1EC31DBC00E43EAA /* protocol */,
 				DB6397EF1EC31E2F00E43EAA /* Extension */,
+				DB6B58751ECC8EC100681A16 /* Model */,
+				DB6397EC1EC31DBC00E43EAA /* protocol */,
+				DB6397E51EC31CFC00E43EAA /* View */,
+				DB6397E01EC31BB400E43EAA /* ViewController */,
+				DB6B587A1ECDCC2E00681A16 /* ViewModel */,
 				DBAE6DC71EBF0AC1004EF6DE /* Assets.xcassets */,
 				DBAE6DC91EBF0AC1004EF6DE /* LaunchScreen.storyboard */,
 				DBAE6DCC1EBF0AC1004EF6DE /* Info.plist */,
@@ -556,6 +570,7 @@
 			files = (
 				DB6B58741ECC8E5800681A16 /* GithubSearchUserRequest.swift in Sources */,
 				DB6B58771ECC8ED900681A16 /* GithubUser.swift in Sources */,
+				DB2BE41B1EDA8C05007BAE50 /* UIColor+Github.swift in Sources */,
 				DB6397F51EC3261A00E43EAA /* UITableView+Cell.swift in Sources */,
 				DB6B586B1ECC492000681A16 /* GithubResponse.swift in Sources */,
 				DBAE6DC11EBF0AC1004EF6DE /* AppDelegate.swift in Sources */,
@@ -565,6 +580,7 @@
 				DB6397EA1EC31D6800E43EAA /* GithubUserCell.swift in Sources */,
 				DB6B586E1ECC887C00681A16 /* GithubSearchReponse.swift in Sources */,
 				DB6397F11EC31E4A00E43EAA /* NSObjectProtocol+ClassName.swift in Sources */,
+				DB6B587C1ECDCC5400681A16 /* SearchUserViewModel.swift in Sources */,
 				DB6397EE1EC31DD900E43EAA /* Storybordable.swift in Sources */,
 				DB6397E41EC31BF900E43EAA /* SearchUserViewController.swift in Sources */,
 			);

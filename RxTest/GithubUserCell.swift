@@ -7,18 +7,32 @@
 //
 
 import UIKit
+import Kingfisher
 
-class GithubUserCell: UITableViewCell {
+class GithubUserCell: UITableViewCell, Nibable {
 
+    static let defaultHeight: CGFloat = 80
+    
+    @IBOutlet weak var iconImageView: UIImageView!
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var urlLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
+        nameLabel.textColor = UIColor(github: .blue)
+        urlLabel.textColor = UIColor(github: .textGray)
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    }
+    
+    func configure(with user: GithubUser) {
+        iconImageView.kf.cancelDownloadTask()
+        nameLabel.text = user.login
+        urlLabel.text = user.htmlUrl.absoluteString
+        iconImageView.kf.setImage(with: user.avatarUrl, options: [.transition(.fade(0.3))])
     }
     
 }

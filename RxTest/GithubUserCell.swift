@@ -11,7 +11,7 @@ import Kingfisher
 
 class GithubUserCell: UITableViewCell, Nibable {
 
-    static let defaultHeight: CGFloat = 80
+    static let defaultHeight: CGFloat = 100
     
     @IBOutlet weak var iconImageView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!

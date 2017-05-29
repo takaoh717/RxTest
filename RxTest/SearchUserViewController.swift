@@ -74,6 +74,13 @@ final class SearchUserViewController: UIViewController, Storyboardable {
         // 実現したい処理：文字の入力を0.3秒待って次の入力がなければ検索実行。同じ文字列だった場合は検索しない
         searchBar.rx.text.orEmpty.asDriver().skip(1).debounce(0.3).distinctUntilChanged().drive(onNext: {[unowned self] query in self.viewModel.fetchUsers(with: query)}).addDisposableTo(disposeBag)
         
+        // 一番したまでスクロールしたら追加取得
+        tableView.rx.reachedBottom
+            .subscribe(onNext: { [unowned self] in
+                self.viewModel.fetchMoreUsers()
+            })
+        .addDisposableTo(disposeBag)
+        
         // ローディング状況をUIに反映する
         viewModel.isLoading.asDriver().drive(onNext: { [unowned self] isLoading in
             self.alphaView.isHidden = !isLoading
@@ -100,7 +107,19 @@ final class SearchUserViewController: UIViewController, Storyboardable {
             self.searchBar.resignFirstResponder()
         })
         .addDisposableTo(disposeBag)
+        
+//        NotificationCenter.default.rx.notification(.UIKeyboardWillShow).asDriver(onErrorDriveWith: .empty())
+//            .flatMap { notification -> Driver<UIKeyboardNotificationInfo> in
+//                guard let keyboardInfo = UIKeyboardNotificationInfo(from: notification) else {
+//                    return Driver.empty()
+//                }
+//                return Driver.just(keyboardInfo)
+//        }
+//            .drive(onNext: { [unowned self] info in
+//                
+//            })
     }
+    
     
     private func showAlert(with error: Error) {
         if presentedViewController is UIAlertController { return }

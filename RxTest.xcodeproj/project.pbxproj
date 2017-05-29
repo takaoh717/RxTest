@@ -10,6 +10,7 @@
 		B1A9583DCF68E385B63CA1D3 /* Pods_RxTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2214EA7EA8BF96594DFA0E8A /* Pods_RxTestUITests.framework */; };
 		DA191D011C998E15C037AC8B /* Pods_RxTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F09380F1D02B8CEA63856143 /* Pods_RxTestTests.framework */; };
 		DB2BE41B1EDA8C05007BAE50 /* UIColor+Github.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2BE41A1EDA8C05007BAE50 /* UIColor+Github.swift */; };
+		DB5C01EE1EDAAFDC006117B0 /* UIScrollView+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5C01ED1EDAAFDC006117B0 /* UIScrollView+Rx.swift */; };
 		DB6397E21EC31BE200E43EAA /* SearchUserViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB6397E11EC31BE200E43EAA /* SearchUserViewController.storyboard */; };
 		DB6397E41EC31BF900E43EAA /* SearchUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6397E31EC31BF900E43EAA /* SearchUserViewController.swift */; };
 		DB6397EA1EC31D6800E43EAA /* GithubUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6397E81EC31D6800E43EAA /* GithubUserCell.swift */; };
@@ -59,6 +60,7 @@
 		A5A88E6460A33AADBA84A5D7 /* Pods-RxTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxTestUITests/Pods-RxTestUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B2B0CD1F9BD37A5957B8B0FC /* Pods-RxTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxTestTests/Pods-RxTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DB2BE41A1EDA8C05007BAE50 /* UIColor+Github.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Github.swift"; sourceTree = "<group>"; };
+		DB5C01ED1EDAAFDC006117B0 /* UIScrollView+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Rx.swift"; sourceTree = "<group>"; };
 		DB6397E11EC31BE200E43EAA /* SearchUserViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SearchUserViewController.storyboard; sourceTree = "<group>"; };
 		DB6397E31EC31BF900E43EAA /* SearchUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchUserViewController.swift; sourceTree = "<group>"; };
 		DB6397E81EC31D6800E43EAA /* GithubUserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubUserCell.swift; sourceTree = "<group>"; };
@@ -172,6 +174,7 @@
 				DB6397F01EC31E4A00E43EAA /* NSObjectProtocol+ClassName.swift */,
 				DB6397F41EC3261A00E43EAA /* UITableView+Cell.swift */,
 				DB2BE41A1EDA8C05007BAE50 /* UIColor+Github.swift */,
+				DB5C01ED1EDAAFDC006117B0 /* UIScrollView+Rx.swift */,
 			);
 			name = Extension;
 			sourceTree = "<group>";
@@ -581,6 +584,7 @@
 				DB6B586E1ECC887C00681A16 /* GithubSearchReponse.swift in Sources */,
 				DB6397F11EC31E4A00E43EAA /* NSObjectProtocol+ClassName.swift in Sources */,
 				DB6B587C1ECDCC5400681A16 /* SearchUserViewModel.swift in Sources */,
+				DB5C01EE1EDAAFDC006117B0 /* UIScrollView+Rx.swift in Sources */,
 				DB6397EE1EC31DD900E43EAA /* Storybordable.swift in Sources */,
 				DB6397E41EC31BF900E43EAA /* SearchUserViewController.swift in Sources */,
 			);

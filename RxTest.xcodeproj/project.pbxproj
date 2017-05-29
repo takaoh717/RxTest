@@ -10,6 +10,7 @@
 		B1A9583DCF68E385B63CA1D3 /* Pods_RxTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2214EA7EA8BF96594DFA0E8A /* Pods_RxTestUITests.framework */; };
 		DA191D011C998E15C037AC8B /* Pods_RxTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F09380F1D02B8CEA63856143 /* Pods_RxTestTests.framework */; };
 		DB2BE41B1EDA8C05007BAE50 /* UIColor+Github.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2BE41A1EDA8C05007BAE50 /* UIColor+Github.swift */; };
+		DB4418641EDC72000009CBE8 /* UIKeyboardNotificationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4418631EDC72000009CBE8 /* UIKeyboardNotificationInfo.swift */; };
 		DB5C01EE1EDAAFDC006117B0 /* UIScrollView+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5C01ED1EDAAFDC006117B0 /* UIScrollView+Rx.swift */; };
 		DB6397E21EC31BE200E43EAA /* SearchUserViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB6397E11EC31BE200E43EAA /* SearchUserViewController.storyboard */; };
 		DB6397E41EC31BF900E43EAA /* SearchUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6397E31EC31BF900E43EAA /* SearchUserViewController.swift */; };
@@ -60,6 +61,7 @@
 		A5A88E6460A33AADBA84A5D7 /* Pods-RxTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxTestUITests/Pods-RxTestUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B2B0CD1F9BD37A5957B8B0FC /* Pods-RxTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxTestTests/Pods-RxTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DB2BE41A1EDA8C05007BAE50 /* UIColor+Github.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Github.swift"; sourceTree = "<group>"; };
+		DB4418631EDC72000009CBE8 /* UIKeyboardNotificationInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKeyboardNotificationInfo.swift; sourceTree = "<group>"; };
 		DB5C01ED1EDAAFDC006117B0 /* UIScrollView+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Rx.swift"; sourceTree = "<group>"; };
 		DB6397E11EC31BE200E43EAA /* SearchUserViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SearchUserViewController.storyboard; sourceTree = "<group>"; };
 		DB6397E31EC31BF900E43EAA /* SearchUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchUserViewController.swift; sourceTree = "<group>"; };
@@ -201,6 +203,7 @@
 			isa = PBXGroup;
 			children = (
 				DB6B58761ECC8ED900681A16 /* GithubUser.swift */,
+				DB4418631EDC72000009CBE8 /* UIKeyboardNotificationInfo.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -587,6 +590,7 @@
 				DB5C01EE1EDAAFDC006117B0 /* UIScrollView+Rx.swift in Sources */,
 				DB6397EE1EC31DD900E43EAA /* Storybordable.swift in Sources */,
 				DB6397E41EC31BF900E43EAA /* SearchUserViewController.swift in Sources */,
+				DB4418641EDC72000009CBE8 /* UIKeyboardNotificationInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -24,6 +24,9 @@ final class SearchUserViewController: UIViewController, Storyboardable {
     @IBOutlet weak var totalCountContentView: UIView!
     @IBOutlet weak var totalCountLabel: UILabel!
     
+    @IBOutlet weak var tableViewBottomConstraint: NSLayoutConstraint!
+    @IBOutlet weak var alphaViewBottomConstraint: NSLayoutConstraint!
+    
     // View以外のPropertyをViewModelに集約
     fileprivate let viewModel = SearchUserViewModel()
     private let disposeBag = DisposeBag()
@@ -108,16 +111,44 @@ final class SearchUserViewController: UIViewController, Storyboardable {
         })
         .addDisposableTo(disposeBag)
         
-//        NotificationCenter.default.rx.notification(.UIKeyboardWillShow).asDriver(onErrorDriveWith: .empty())
-//            .flatMap { notification -> Driver<UIKeyboardNotificationInfo> in
-//                guard let keyboardInfo = UIKeyboardNotificationInfo(from: notification) else {
-//                    return Driver.empty()
-//                }
-//                return Driver.just(keyboardInfo)
-//        }
-//            .drive(onNext: { [unowned self] info in
-//                
-//            })
+        NotificationCenter.default.rx.notification(.UIKeyboardWillShow).asDriver(onErrorDriveWith: .empty())
+            .flatMap { notification -> Driver<UIKeyboardNotificationInfo> in
+                guard let keyboardInfo = UIKeyboardNotificationInfo(from: notification) else {
+                    return Driver.empty()
+                }
+                return Driver.just(keyboardInfo)
+            }
+            .drive(onNext: { [unowned self] info in
+                self.keyboardWillAnimate(toDefault: false, with: info)
+            })
+            .addDisposableTo(disposeBag)
+        
+        NotificationCenter.default.rx.notification(.UIKeyboardWillHide).asDriver(onErrorDriveWith: .empty())
+            .flatMap { notification -> Driver<UIKeyboardNotificationInfo> in
+                guard let keyboardInfo = UIKeyboardNotificationInfo(from: notification) else {
+                    return Driver.empty()
+                }
+                return Driver.just(keyboardInfo)
+            }
+            .drive(onNext: { [unowned self] info in
+                self.keyboardWillAnimate(toDefault: true, with: info)
+            })
+            .addDisposableTo(disposeBag)
+    }
+    
+    private func keyboardWillAnimate(toDefault: Bool, with info: UIKeyboardNotificationInfo) {
+        view.layoutIfNeeded()
+        if toDefault {
+            self.tableViewBottomConstraint.constant = 0
+            self.alphaViewBottomConstraint.constant = 0
+        } else {
+            let keyboardHeight = info.frame.size.height
+            self.tableViewBottomConstraint.constant = keyboardHeight
+            self.alphaViewBottomConstraint.constant = keyboardHeight
+        }
+        UIView.animate(withDuration: info.duration, delay: 0, options: info.animationOptions, animations: { 
+            self.view.layoutIfNeeded()
+        }, completion: nil)
     }
     
     

@@ -72,8 +72,10 @@
                     </view>
                     <connections>
                         <outlet property="alphaView" destination="bjy-I2-YS3" id="0jL-LX-cGE"/>
+                        <outlet property="alphaViewBottomConstraint" destination="mcB-i0-WBo" id="lPu-bK-8SJ"/>
                         <outlet property="indicatorView" destination="Vsg-pm-Q0b" id="Fs3-TA-ipC"/>
                         <outlet property="tableView" destination="R8F-dW-1A0" id="UwG-0b-PMo"/>
+                        <outlet property="tableViewBottomConstraint" destination="NyO-ub-4Ae" id="Iaf-0q-6iY"/>
                         <outlet property="totalCountContentView" destination="c2d-ac-cxM" id="8wz-b6-Jk2"/>
                         <outlet property="totalCountLabel" destination="IcH-Ga-2ha" id="sWj-t5-BFv"/>
                     </connections>

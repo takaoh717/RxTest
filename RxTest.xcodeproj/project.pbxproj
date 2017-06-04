@@ -60,6 +60,7 @@
 		7D16B3C85A160DEC48023440 /* Pods-RxTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxTest/Pods-RxTest.release.xcconfig"; sourceTree = "<group>"; };
 		A5A88E6460A33AADBA84A5D7 /* Pods-RxTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxTestUITests/Pods-RxTestUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B2B0CD1F9BD37A5957B8B0FC /* Pods-RxTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxTestTests/Pods-RxTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DB15F6861EE42EBD0039BED7 /* RxLearning.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = RxLearning.playground; sourceTree = "<group>"; };
 		DB2BE41A1EDA8C05007BAE50 /* UIColor+Github.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Github.swift"; sourceTree = "<group>"; };
 		DB4418631EDC72000009CBE8 /* UIKeyboardNotificationInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKeyboardNotificationInfo.swift; sourceTree = "<group>"; };
 		DB5C01ED1EDAAFDC006117B0 /* UIScrollView+Rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Rx.swift"; sourceTree = "<group>"; };
@@ -219,6 +220,7 @@
 		DBAE6DB41EBF0AC1004EF6DE = {
 			isa = PBXGroup;
 			children = (
+				DB15F6861EE42EBD0039BED7 /* RxLearning.playground */,
 				DBAE6DBF1EBF0AC1004EF6DE /* RxTest */,
 				DBAE6DD41EBF0AC1004EF6DE /* RxTestTests */,
 				DBAE6DDF1EBF0AC1004EF6DE /* RxTestUITests */,

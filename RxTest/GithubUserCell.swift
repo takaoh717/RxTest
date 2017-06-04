@@ -28,6 +28,7 @@ class GithubUserCell: UITableViewCell, Nibable {
         super.setSelected(selected, animated: animated)
     }
     
+    // cellの設定
     func configure(with user: GithubUser) {
         iconImageView.kf.cancelDownloadTask()
         nameLabel.text = user.login
